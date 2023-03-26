@@ -1,0 +1,55 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.hading{
+    width: 100%;
+    height: 50px;
+    background-color: #c9ac70;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    color: #364242;
+}
+.slide-container{
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+.slide img{
+    width: 100%;
+    height: 550px;
+
+}
+.caption{
+    position: absolute;
+    bottom: 0px;
+    color: white;
+    font-size: 39px;
+    width: 100%;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.411);
+    text-transform: capitalize;
+}
+.sle{
+    background-color: rgba(255, 255, 255, 0.459);
+    position: absolute;
+    top: 50%;
+    font-size: 35px;
+    padding: 0px;
+    font-weight: bold;
+    cursor: pointer;
+    width: 33px;
+    border-radius: 50%;
+    text-align: center;
+}
+.left{
+    left: 15px;
+}
+.right{
+    right: 15px;
+}
+.slide{
+   display: none;
+}
